@@ -9,7 +9,7 @@
     <option name="CONSOLE_BACKGROUND_KEY" value="2240" />
     <option name="INDENT_GUIDE" value="25425c" />
     <option name="SELECTION_BACKGROUND" value="85533a" />
-    <option name="WHITESPACES" value="25425c" />
+    <option name="WHITESPACES" value="bfbfbf" />
   </colors>
   <attributes>
     <option name="BAD_CHARACTER">
@@ -2372,6 +2372,16 @@
         <option name="ERROR_STRIPE_COLOR" />
       </value>
     </option>
+    <option name="RUBY_COLON">
+      <value>
+        <option name="FOREGROUND" />
+        <option name="BACKGROUND" />
+        <option name="FONT_TYPE" value="0" />
+        <option name="EFFECT_COLOR" />
+        <option name="EFFECT_TYPE" value="0" />
+        <option name="ERROR_STRIPE_COLOR" />
+      </value>
+    </option>
     <option name="RUBY_COMMA">
       <value>
         <option name="FOREGROUND" value="e1efff" />
@@ -2415,6 +2425,16 @@
     <option name="RUBY_CVAR">
       <value>
         <option name="FOREGROUND" value="cccccc" />
+        <option name="BACKGROUND" />
+        <option name="FONT_TYPE" value="0" />
+        <option name="EFFECT_COLOR" />
+        <option name="EFFECT_TYPE" value="0" />
+        <option name="ERROR_STRIPE_COLOR" />
+      </value>
+    </option>
+    <option name="RUBY_DOT">
+      <value>
+        <option name="FOREGROUND" />
         <option name="BACKGROUND" />
         <option name="FONT_TYPE" value="0" />
         <option name="EFFECT_COLOR" />
@@ -2763,6 +2783,26 @@
       </value>
     </option>
     <option name="SCOPE_KEY_All">
+      <value>
+        <option name="FOREGROUND" />
+        <option name="BACKGROUND" />
+        <option name="FONT_TYPE" value="0" />
+        <option name="EFFECT_COLOR" />
+        <option name="EFFECT_TYPE" value="0" />
+        <option name="ERROR_STRIPE_COLOR" />
+      </value>
+    </option>
+    <option name="SCOPE_KEY_Changed Files">
+      <value>
+        <option name="FOREGROUND" />
+        <option name="BACKGROUND" />
+        <option name="FONT_TYPE" value="0" />
+        <option name="EFFECT_COLOR" />
+        <option name="EFFECT_TYPE" value="0" />
+        <option name="ERROR_STRIPE_COLOR" />
+      </value>
+    </option>
+    <option name="SCOPE_KEY_Default">
       <value>
         <option name="FOREGROUND" />
         <option name="BACKGROUND" />
