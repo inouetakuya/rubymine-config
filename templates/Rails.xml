@@ -20,5 +20,65 @@
       <option name="OTHER" value="false" />
     </context>
   </template>
+  <template name="if" value="&lt;% if $END$ %&gt;&#10;&#10;&lt;% end %&gt;" description="&lt;% if %&gt;" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="RUBY" value="false" />
+      <option name="RHTML" value="true" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="SQL" value="false" />
+      <option name="HAML" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="Slim" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="link_to" value="&lt;%= link_to &quot;$END$&quot; %&gt;" description="&lt;%= link_to %&gt;" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="RUBY" value="false" />
+      <option name="RHTML" value="true" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="SQL" value="false" />
+      <option name="HAML" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="Slim" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="redirect" value="redirect root_path" description="redirect_to root_path" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="RUBY" value="true" />
+      <option name="RHTML" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="SQL" value="false" />
+      <option name="HAML" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="Slim" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
 </templateSet>
 
