@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application>
+  <component name="StatisticsApplicationUsages">
+    <group name="vcs">
+      <project id="120623テストデータ投入" values="Git" />
+      <project id="jpmobile" values="Git" />
+      <project id="sample_app" values="Git" />
+      <project id="sample-app" values="Git" />
+      <project id="sqale" values="Git" />
+      <project id="minne-app" values="Git" />
+      <project id="spcroad" values="Git" />
+      <project id="src" values="Git" />
+    </group>
+    <group name="frameworks">
+      <project id="sample_app" values="RailsFacetType" />
+      <project id="sample-app" values="RailsFacetType" />
+      <project id="sqale" values="RailsFacetType" />
+      <project id="minne-app" values="RailsFacetType" />
+      <project id="spcroad" values="RailsFacetType" />
+      <project id="src" values="RailsFacetType" />
+    </group>
+    <group name="jdbc-datasource">
+      <project id="sample-app" values="/,SQLite/3.7.2,SQLite/3.7.2" />
+      <project id="spcroad" values="/,MySQL/5.5.25a,MySQL/5.5.25a" />
+      <project id="src" values="/" />
+    </group>
+    <group name="ruby-project-type">
+      <project id="120623テストデータ投入" values="plain ruby" />
+      <project id="jpmobile" values="plain ruby" />
+      <project id="sample_app" values="rails 3.2" />
+      <project id="sample-app" values="rails 3.2" />
+      <project id="sqale" values="rails 3.2" />
+      <project id="minne-app" values="rails 3.1" />
+      <project id="spcroad" values="rails 3.2" />
+      <project id="untitled" values="plain ruby" />
+      <project id="src" values="rails unknown" />
+    </group>
+    <group name="run-configuration-type">
+      <project id="sample_app" values="RakeRunConfigurationType,RailsRunConfigurationType" />
+      <project id="sample-app" values="RakeRunConfigurationType,RailsRunConfigurationType" />
+      <project id="sqale" values="RakeRunConfigurationType,RailsRunConfigurationType" />
+      <project id="minne-app" values="RakeRunConfigurationType,RailsRunConfigurationType" />
+      <project id="spcroad" values="RailsRunConfigurationType,RakeRunConfigurationType" />
+      <project id="src" values="RakeRunConfigurationType,RailsRunConfigurationType" />
+    </group>
+    <group name="module type">
+      <project id="120623テストデータ投入" values="RUBY_MODULE" />
+      <project id="jpmobile" values="RUBY_MODULE" />
+      <project id="sample_app" values="RUBY_MODULE" />
+      <project id="sample-app" values="RUBY_MODULE" />
+      <project id="sqale" values="RUBY_MODULE" />
+      <project id="minne-app" values="RUBY_MODULE" />
+      <project id="spcroad" values="RUBY_MODULE" />
+      <project id="untitled" values="RUBY_MODULE" />
+      <project id="src" values="RUBY_MODULE" />
+    </group>
+    <group name="file-type">
+      <project id="jpmobile" values="HTML,YAML,XML,C++,RHTML,ARCHIVE,RDOC,CSS,Ruby,JSON,JavaScript,CoffeeScript,UNKNOWN,Cucumber,SCSS,XHTML,Images,DTD,PLAIN_TEXT" />
+      <project id="sample_app" values="SASS,C++,PLAIN_TEXT,JSON,CSS,CoffeeScript,SCSS,Cucumber,Ruby,HTML,DTD,RDOC,UNKNOWN,JavaScript,YAML,LESS,XML,Images,RHTML,XHTML" />
+      <project id="sample-app" values="XHTML,UNKNOWN,SASS,DATASOURCE_STORAGE,DTD,CSS,C++,HTML,JSON,Ruby,RHTML,JavaScript,Cucumber,LESS,SCSS,CoffeeScript,Images,YAML,RDOC,XML,PLAIN_TEXT" />
+      <project id="sqale" values="Ruby,Images,RHTML,RXML,DTD,SASS,XHTML,JSON,UNKNOWN,CoffeeScript,JavaScript,HAML,C++,PLAIN_TEXT,Cucumber,HTML,LESS,YAML,RDOC,SCSS,XML,Slim,CSS" />
+      <project id="minne-app" values="JavaScript,CSS,Native,ARCHIVE,XML,Cucumber,PLAIN_TEXT,Ruby,RDOC,HTML,XHTML,Images,RHTML,C++,SASS,DTD,UNKNOWN,YAML,Slim,Rjs,HAML,JSON" />
+      <project id="spcroad" values="LESS,C++,CoffeeScript,CSS,Images,XML,DTD,JavaScript,RDOC,Cucumber,YAML,SASS,PLAIN_TEXT,HAML,RHTML,HTML,UNKNOWN,SCSS,DATASOURCE_STORAGE,XHTML,Slim,JSON,Ruby" />
+      <project id="src" values="YAML,UNKNOWN,RDOC,C++,Images,HAML,PLAIN_TEXT,RHTML,SASS,CoffeeScript,JSON,DATASOURCE_STORAGE,LESS,CSS,XHTML,Ruby,JavaScript,HTML,XML,Slim,SCSS" />
+    </group>
+    <group name="javaScript Scope Usages">
+      <project id="jpmobile" values="Project,Project,Project,Project,Project,Project,Project,Project,Project,Project,Project,Project" />
+      <project id="sample_app" values="Project,Project,Project,Project,Project,Project,Project,Project,Project,Project,Project,Project" />
+      <project id="sample-app" values="Project,Project,Project,Project,Project,Project,Project,Project,Project,Project,Project,Project" />
+      <project id="sqale" values="Project,Project,Project,Project,Project,Project,Project,Project,Project,Project,Project,Project" />
+      <project id="minne-app" values="Project,Project,Project,Project,Project,Project,Project,Project,Project,Project,Project,Project" />
+      <project id="spcroad" values="Project,Project,Project,Project,Project,Project,Project,Project,Project,Project,Project,Project" />
+      <project id="src" values="Project,Project,Project,Project,Project,Project,Project,Project,Project,Project,Project,Project" />
+    </group>
+    <group name="jdbc-driver">
+      <project id="sample-app" values="org.sqlite.JDBC,org.sqlite.JDBC,com.mysql.jdbc.Driver" />
+      <project id="spcroad" values="com.mysql.jdbc.Driver,com.mysql.jdbc.Driver,com.mysql.jdbc.Driver" />
+      <project id="src" values="org.sqlite.JDBC" />
+    </group>
+    <group name="ruby-gems-names">
+      <project id="jpmobile" values="rspec,jeweler,rack-test,rack-ssl,activeresource,rack,rack-cache,journey,builder,hike,geokit,rdoc,rspec-mocks,tzinfo,actionpack,tilt,rspec-core,nokogiri,erubis,arel,polyglot,thor,activerecord,railties,rspec-rails,mail,activesupport,webrat,multi_json,sprockets,activemodel,mime-types,hpricot,bundler,git,rspec-expectations,treetop,sqlite3-ruby,actionmailer,i18n,sqlite3,rails,rake,json,diff-lcs" />
+      <project id="sample_app" values="guard,rspec-rails,coffee-script,rails,activeresource,sqlite3,rack-test,hike,journey,coffee-rails,capybara,bundler,tzinfo,actionmailer,thor,nokogiri,ffi,rack-ssl,guard-spork,activemodel,activerecord,tilt,rake,json,bootstrap-sass,sass,builder,rdoc,uglifier,i18n,railties,childprocess,treetop,rspec-core,selenium-webdriver,mail,sass-rails,rb-fsevent,addressable,diff-lcs,annotate,growl,libwebsocket,mime-types,rack-cache,rspec-expectations,sprockets,spork,coffee-script-source,xpath,rspec-mocks,jquery-rails,erubis,actionpack,rspec,execjs,activesupport,multi_json,rack,rubyzip,polyglot,arel,guard-rspec" />
+      <project id="sample-app" values="thor,rspec-rails,builder,database_cleaner,arel,guard-rspec,ffi,multi_json,tilt,annotate,xpath,mail,erubis,rspec-expectations,rspec,bootstrap-will_paginate,sqlite3,i18n,activesupport,spork,activemodel,treetop,rails,rdoc,journey,activerecord,will_paginate,guard,actionpack,rubyzip,childprocess,rack-test,uglifier,sass-rails,polyglot,faker,bootstrap-sass,sprockets,activeresource,coffee-script-source,mime-types,addressable,bundler,actionmailer,diff-lcs,hike,rspec-mocks,libwebsocket,rspec-core,coffee-rails,bcrypt-ruby,rb-fsevent,railties,growl,execjs,rack-cache,guard-spork,rack-ssl,rack,factory_girl,json,selenium-webdriver,coffee-script,nokogiri,rake,factory_girl_rails,sass,jquery-rails,capybara,tzinfo" />
+      <project id="sqale" values="webrobots,database_cleaner,json,fuubar,guard-rspec,kgio,simplecov-rcov,msgpack,rspec-mocks,multipart-post,parallel_tests,i18n,rake,bson_ext,tzinfo,fabrication,bcrypt-ruby,mysql2,posix-spawn,hirb,fivemat,tapp,hirb-unicode,multi_json,i18n_generators,resque_spec,net-http-digest_auth,net-ssh,net-scp,guard,railties,dalli,treetop,tilt,paper_trail,sshkey,mail,rails,mechanize,timecop,polyglot,hike,oauth2,route53,rdoc,simple-rss,nokogiri,cancan,activeresource,rake-confirm,redis-namespace,capistrano-ext,spork,addressable,unf_ext,activemodel,diff-lcs,foreman,net-ssh-gateway,pry-rails,coffee-script-source,nyan-cat-formatter,rack,sorcery,mysql,coffee-rails,uglifier,capistrano_rsync_with_remote_cache,capistrano_colors,net-irc,simplecov,rack-google-analytics,fluent-logger,unf,therubyracer,net-http-persistent,rails_config,ffi,rack-test,rspec-expectations,slop,rack-pjax,mime-types,osaipo_client,jquery-rails,faraday,wirb,rack-cache,launchy,actionpack,xpath,unicode-display_width,coffee-script,accept_values_for,ruby-progressbar,rspec-core,rspec-instafail,childprocess,coderay,parallel,i18n_lazy_lookup_generator,resque,journey,domain_name,php-serialize,bundler,feed-normalizer,oauth,bson,libv8,guard-spork,sass-rails,rails3_acts_as_paranoid,redis,simplecov-html,ntlm-http,unicorn,net-sftp,thor,yajl-ruby,erubis,activerecord,vegas,awesome_print,activesupport,ruby-graphviz,activerecord-nulldb-adapter,rack-ssl,builder,rack-protection,rails-erd,hpricot,highline,capybara,actionmailer,exception_notification,sass,execjs,kaminari,rspec,sinatra,selenium-webdriver,capistrano,string-irc,grit,faker,ruby-hmac,rubyzip,pry,raindrops,sprockets,arel,rspec-rails,method_source" />
+      <project id="minne-app" values="rb-fsevent,builder,rspec,linecache19,jquery-rails,database_cleaner,rspec-expectations,uuidtools,rspec-mocks,tilt,omniauth-facebook,rails3_acts_as_paranoid,pr_geohash,exception_notification,railties,rubyzip,factory_girl,rmagick,warden,aws-s3,polyglot,aws-sdk,hashie,rails-erd,options,method_source,unicorn,pry-rails,spork,omniauth-oauth2,kgio,coderay,actionpack,delayed_job_active_record,multi_xml,cocaine,orm_adapter,cucumber,selenium-webdriver,cucumber-rails,xpath,guard-spork,nokogiri,slop,mime-types,activemodel,bundler,net-ssh-gateway,progress_bar,formtastic,httparty,pry,httpauth,treetop,sunspot_solr,thor,actionmailer,daemons,rdoc,delayed_job,rack-test,diff-lcs,childprocess,ruby-debug-base19,net-ssh,kaminari,capistrano_colors,json_pure,oauth2,multi_json,rack-ssl,dalli,guard,activeresource,sprockets,activesupport,raindrops,mail,rake,net-scp,capybara,ruby_core_source,aws-ses,highline,ffi,capistrano,xml-simple,guard-rspec,i18n,configuration,rails-footnotes,fattr,ruby-graphviz,rspec-rails,rack,gherkin,erubis,multipart-post,mysql2,addressable,sunspot,columnize,rack-mount,tzinfo,factory_girl_rails,escape,omniauth,hike,term-ansicolor,activerecord,rsolr,devise,net-sftp,json,bcrypt-ruby,bartt-ssl_requirement,archive-tar-minitar,paperclip,rspec-core,arel,sunspot_rails,rack-cache,faraday,rails,ruby-debug19,launchy" />
+      <project id="spcroad" values="omniauth-oauth,carrierwave,addressable,tzinfo,omniauth-twitter,rack,childprocess,xpath,actionpack,sprockets,coffee-script,bootstrap-sass,mail,less-rails,i18n,hashie,bundler,libv8,hike,activesupport,multi_json,activerecord,erubis,oauth,execjs,rake,libwebsocket,arel,builder,rspec,tilt,rspec-mocks,rack-ssl,commonjs,uglifier,rspec-core,rspec-expectations,jquery-rails,bcrypt-ruby,thor,rack-test,diff-lcs,mysql2,omniauth,rspec-rails,coffee-rails,actionmailer,rack-cache,ffi,polyglot,rubyzip,sass-rails,nokogiri,coffee-script-source,capybara,rails,activeresource,mime-types,railties,json,less,selenium-webdriver,sass,rdoc,therubyracer,activemodel,twitter-bootstrap-rails,sqlite3,treetop,journey" />
+    </group>
+    <group name="JavaScript versions">
+      <project id="120623テストデータ投入" values="DEFAULT" />
+      <project id="jpmobile" values="DEFAULT" />
+      <project id="sample_app" values="DEFAULT" />
+      <project id="sample-app" values="DEFAULT" />
+      <project id="sqale" values="DEFAULT" />
+      <project id="minne-app" values="DEFAULT" />
+      <project id="spcroad" values="DEFAULT" />
+      <project id="untitled" values="DEFAULT" />
+      <project id="src" values="DEFAULT" />
+    </group>
+    <group name="ruby-sdk-version">
+      <project id="120623テストデータ投入" values="ruby-1.8.7-p249" />
+      <project id="jpmobile" values="ruby-1.9.3-p194" />
+      <project id="sample_app" values="ruby-1.9.3-p194" />
+      <project id="sample-app" values="ruby-1.9.3-p194" />
+      <project id="sqale" values="ruby-1.9.3-p194" />
+      <project id="minne-app" values="ruby-1.9.3-p194" />
+      <project id="spcroad" values="ruby-1.9.3-p194" />
+      <project id="untitled" values="ruby-1.8.7-p249" />
+    </group>
+    <group name="ruby-custom-scripts">
+      <project id="120623テストデータ投入" values="loaded scripts" />
+      <project id="jpmobile" values="loaded scripts" />
+      <project id="sample_app" values="loaded scripts" />
+      <project id="sample-app" values="loaded scripts" />
+      <project id="sqale" values="loaded scripts" />
+      <project id="minne-app" values="loaded scripts" />
+      <project id="spcroad" values="loaded scripts" />
+      <project id="untitled" values="loaded scripts" />
+      <project id="src" values="loaded scripts" />
+    </group>
+  </component>
+  <component name="UsageTrigger">
+    <counts>
+      <entry feature="execute.RakeRunConfigurationType.Run" count="1" />
+    </counts>
+  </component>
+</application>
+

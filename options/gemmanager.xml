@@ -1,0 +1,680 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application>
+  <component name="GemManagerSettings" libraryVersion="3">
+    <sdk2gems sdk="ruby-1.8.7-p249">
+      <box url="file://$USER_HOME$/.gem/ruby/1.8/gems" />
+      <box url="file:///Library/Ruby/Gems/1.8/gems">
+        <gem url="file:///Library/Ruby/Gems/1.8/gems/addressable-2.2.8" name="addressable" version="2.2.8" timestamp="1336389493000" parser_version="15" git="false">
+          <additional_info authors="Bob Aman" email="bob@sporkmonger.com" homepage="http://addressable.rubyforge.org/">
+            <summary>URI Implementation</summary>
+          </additional_info>
+        </gem>
+        <gem url="file:///Library/Ruby/Gems/1.8/gems/carrier-pigeon-0.4.0" name="carrier-pigeon" version="0.4.0" timestamp="1336389493000" parser_version="15" git="false">
+          <additional_info authors="Sean Porter" email="portertech@gmail.com" homepage="https://github.com/portertech/carrier-pigeon">
+            <summary>The simplest library to say something on IRC</summary>
+          </additional_info>
+          <dependency name="addressable" git="false" path="false" doRequire="true">
+            <bound version="0" bound="GREATER_OR_EQUAL" />
+          </dependency>
+        </gem>
+      </box>
+      <box url="file:///System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems" />
+      <box url="file://$USER_HOME$/.gem/ruby/1.8/bundler/gems" />
+      <box url="file:///Library/Ruby/Gems/1.8/bundler/gems" />
+      <box url="file:///System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/bundler/gems" />
+    </sdk2gems>
+    <sdk2gems sdk="ruby-1.9.3-p194">
+      <box url="file:///usr/local/Cellar/ruby/1.9.3-p194/lib/ruby/gems/1.9.1/gems">
+        <gem url="file:///usr/local/Cellar/ruby/1.9.3-p194/lib/ruby/gems/1.9.1/gems/builder-3.0.0" name="builder" version="3.0.0" timestamp="1342594933000" parser_version="15" git="false">
+          <additional_info authors="Jim Weirich" email="jim@weirichhouse.org" homepage="http://onestepback.org">
+            <summary>Builders for MarkUp.</summary>
+          </additional_info>
+        </gem>
+        <gem url="file:///usr/local/Cellar/ruby/1.9.3-p194/lib/ruby/gems/1.9.1/gems/sass-3.1.20" name="sass" version="3.1.20" timestamp="1342595389000" parser_version="15" git="false">
+          <additional_info authors="Nathan Weizenbaum, Chris Eppstein, Hampton Catlin" email="sass-lang@googlegroups.com" homepage="http://sass-lang.com/">
+            <summary>A powerful but elegant CSS compiler that makes CSS fun again.</summary>
+          </additional_info>
+        </gem>
+        <gem url="file:///usr/local/Cellar/ruby/1.9.3-p194/lib/ruby/gems/1.9.1/gems/minitest-3.3.0" name="minitest" version="3.3.0" timestamp="1345427794000" parser_version="15" git="false">
+          <additional_info authors="Ryan Davis" email="ryand-ruby@zenspider.com" homepage="https://github.com/seattlerb/minitest">
+            <summary>minitest provides a complete suite of testing facilities supporting TDD, BDD, mocking, and benchmarking</summary>
+          </additional_info>
+        </gem>
+        <gem url="file:///usr/local/Cellar/ruby/1.9.3-p194/lib/ruby/gems/1.9.1/gems/tilt-1.3.3" name="tilt" version="1.3.3" timestamp="1342594935000" parser_version="15" git="false">
+          <additional_info authors="Ryan Tomayko" email="r@tomayko.com" homepage="http://github.com/rtomayko/tilt/">
+            <summary>Generic interface to multiple Ruby template engines</summary>
+          </additional_info>
+        </gem>
+        <gem url="file:///usr/local/Cellar/ruby/1.9.3-p194/lib/ruby/gems/1.9.1/gems/thor-0.16.0" name="thor" version="0.16.0" timestamp="1345427811000" parser_version="15" git="false">
+          <additional_info authors="Yehuda Katz, Jos\u{e9} Valim" email="ruby-thor@googlegroups.com" homepage="http://whatisthor.com/">
+            <summary>A scripting framework that replaces rake, sake and rubigen</summary>
+          </additional_info>
+        </gem>
+        <gem url="file:///usr/local/Cellar/ruby/1.9.3-p194/lib/ruby/gems/1.9.1/gems/mail-2.4.4" name="mail" version="2.4.4" timestamp="1342594940000" parser_version="15" git="false">
+          <additional_info authors="Mikel Lindsaar" email="raasdnil@gmail.com" homepage="http://github.com/mikel/mail">
+            <summary>Mail provides a nice Ruby DSL for making, sending and reading emails.</summary>
+          </additional_info>
+          <dependency name="treetop" git="false" path="false" doRequire="true">
+            <bound version="1.4.8" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="mime-types" git="false" path="false" doRequire="true">
+            <bound version="1.16" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="i18n" git="false" path="false" doRequire="true">
+            <bound version="0.4.0" bound="GREATER_OR_EQUAL" />
+          </dependency>
+        </gem>
+        <gem url="file:///usr/local/Cellar/ruby/1.9.3-p194/lib/ruby/gems/1.9.1/gems/rack-cache-1.2" name="rack-cache" version="1.2" timestamp="1342594934000" parser_version="15" git="false">
+          <additional_info authors="Ryan Tomayko" email="r@tomayko.com" homepage="http://tomayko.com/src/rack-cache/">
+            <summary>HTTP Caching for Rack</summary>
+          </additional_info>
+          <dependency name="rack" git="false" path="false" doRequire="true">
+            <bound version="0.4" bound="GREATER_OR_EQUAL" />
+          </dependency>
+        </gem>
+        <gem url="file:///usr/local/Cellar/ruby/1.9.3-p194/lib/ruby/gems/1.9.1/gems/activesupport-3.2.6" name="activesupport" version="3.2.6" timestamp="1342594933000" parser_version="15" git="false">
+          <additional_info authors="David Heinemeier Hansson" email="david@loudthinking.com" homepage="http://www.rubyonrails.org">
+            <summary>A toolkit of support libraries and Ruby core extensions extracted from the Rails framework.</summary>
+          </additional_info>
+          <dependency name="i18n" git="false" path="false" doRequire="true">
+            <bound version="0.6" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="multi_json" git="false" path="false" doRequire="true">
+            <bound version="1.0" bound="LATEST_IN_BRANCH" />
+          </dependency>
+        </gem>
+        <gem url="file:///usr/local/Cellar/ruby/1.9.3-p194/lib/ruby/gems/1.9.1/gems/coffee-script-2.2.0" name="coffee-script" version="2.2.0" timestamp="1342595379000" parser_version="15" git="false">
+          <additional_info authors="Jeremy Ashkenas, Joshua Peek, Sam Stephenson" email="josh@joshpeek.com" homepage="http://github.com/josh/ruby-coffee-script">
+            <summary>Ruby CoffeeScript Compiler</summary>
+          </additional_info>
+          <dependency name="execjs" git="false" path="false" doRequire="true">
+            <bound version="0" bound="GREATER_OR_EQUAL" />
+          </dependency>
+          <dependency name="coffee-script-source" git="false" path="false" doRequire="true">
+            <bound version="0" bound="GREATER_OR_EQUAL" />
+          </dependency>
+        </gem>
+        <gem url="file:///usr/local/Cellar/ruby/1.9.3-p194/lib/ruby/gems/1.9.1/gems/mime-types-1.19" name="mime-types" version="1.19" timestamp="1342594939000" parser_version="15" git="false">
+          <additional_info authors="Austin Ziegler" email="austin@rubyforge.org" homepage="http://mime-types.rubyforge.org/">
+            <summary>This library allows for the identification of a file's likely MIME content type</summary>
+          </additional_info>
+        </gem>
+        <gem url="file:///usr/local/Cellar/ruby/1.9.3-p194/lib/ruby/gems/1.9.1/gems/jquery-rails-2.0.2" name="jquery-rails" version="2.0.2" timestamp="1342595388000" parser_version="15" git="false">
+          <additional_info authors="Andr\u{e9} Arko" email="andre@arko.net" homepage="http://rubygems.org/gems/jquery-rails">
+            <summary>Use jQuery with Rails 3</summary>
+          </additional_info>
+          <dependency name="thor" git="false" path="false" doRequire="true">
+            <bound version="0.14" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="railties" git="false" path="false" doRequire="true">
+            <bound version="3.2.0" bound="GREATER_OR_EQUAL" />
+            <bound version="5.0" bound="LESS" />
+          </dependency>
+        </gem>
+        <gem url="file:///usr/local/Cellar/ruby/1.9.3-p194/lib/ruby/gems/1.9.1/gems/rack-test-0.6.1" name="rack-test" version="0.6.1" timestamp="1342594934000" parser_version="15" git="false">
+          <additional_info authors="Bryan Helmkamp" email="bryan@brynary.com" homepage="http://github.com/brynary/rack-test">
+            <summary>Simple testing API built on Rack</summary>
+          </additional_info>
+          <dependency name="rack" git="false" path="false" doRequire="true">
+            <bound version="1.0" bound="GREATER_OR_EQUAL" />
+          </dependency>
+        </gem>
+        <gem url="file:///usr/local/Cellar/ruby/1.9.3-p194/lib/ruby/gems/1.9.1/gems/rake-0.9.2.2" name="rake" version="0.9.2.2" timestamp="1342073483000" parser_version="15" git="false">
+          <additional_info authors="N/A" email="N/A" homepage="N/A">
+            <summary>This rake is bundled with Ruby</summary>
+          </additional_info>
+        </gem>
+        <gem url="file:///usr/local/Cellar/ruby/1.9.3-p194/lib/ruby/gems/1.9.1/gems/rack-1.4.1" name="rack" version="1.4.1" timestamp="1342594934000" parser_version="15" git="false">
+          <additional_info authors="Christian Neukirchen" email="chneukirchen@gmail.com" homepage="http://rack.rubyforge.org">
+            <summary>a modular Ruby webserver interface</summary>
+          </additional_info>
+        </gem>
+        <gem url="file:///usr/local/Cellar/ruby/1.9.3-p194/lib/ruby/gems/1.9.1/gems/sqlite3-1.3.6" name="sqlite3" version="1.3.6" timestamp="1342595393000" parser_version="15" git="false">
+          <additional_info authors="Jamis Buck, Luis Lavena, Aaron Patterson" email="jamis@37signals.com, luislavena@gmail.com, aaron@tenderlovemaking.com" homepage="http://github.com/luislavena/sqlite3-ruby">
+            <summary>This module allows Ruby programs to interface with the SQLite3 database engine (http://www.sqlite.org)</summary>
+          </additional_info>
+        </gem>
+        <gem url="file:///usr/local/Cellar/ruby/1.9.3-p194/lib/ruby/gems/1.9.1/gems/rdoc-3.12" name="rdoc" version="3.12" timestamp="1342595385000" parser_version="15" git="false">
+          <additional_info authors="Eric Hodel, Dave Thomas, Phil Hagelberg, Tony Strauss" email="drbrain@segment7.net, , technomancy@gmail.com, tony.strauss@designingpatterns.com" homepage="http://docs.seattlerb.org/rdoc">
+            <summary>RDoc produces HTML and command-line documentation for Ruby projects</summary>
+          </additional_info>
+          <dependency name="json" git="false" path="false" doRequire="true">
+            <bound version="1.4" bound="LATEST_IN_BRANCH" />
+          </dependency>
+        </gem>
+        <gem url="file:///usr/local/Cellar/ruby/1.9.3-p194/lib/ruby/gems/1.9.1/gems/sprockets-2.4.5" name="sprockets" version="2.4.5" timestamp="1345427811000" parser_version="15" git="false">
+          <additional_info authors="Sam Stephenson, Joshua Peek" email="sstephenson@gmail.com, josh@joshpeek.com" homepage="http://getsprockets.org/">
+            <summary>Rack-based asset packaging system</summary>
+          </additional_info>
+          <dependency name="tilt" git="false" path="false" doRequire="true">
+            <bound version="1.1" bound="LATEST_IN_BRANCH" />
+            <bound version="1.3.0" bound="NOT_EQUAL" />
+          </dependency>
+          <dependency name="hike" git="false" path="false" doRequire="true">
+            <bound version="1.2" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="rack" git="false" path="false" doRequire="true">
+            <bound version="1.0" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="multi_json" git="false" path="false" doRequire="true">
+            <bound version="1.0" bound="LATEST_IN_BRANCH" />
+          </dependency>
+        </gem>
+        <gem url="file:///usr/local/Cellar/ruby/1.9.3-p194/lib/ruby/gems/1.9.1/gems/multi_json-1.3.6" name="multi_json" version="1.3.6" timestamp="1342594931000" parser_version="15" git="false">
+          <additional_info authors="Michael Bleigh, Josh Kalderimis, Erik Michaels-Ober" email="michael@intridea.com, josh.kalderimis@gmail.com, sferik@gmail.com" homepage="http://github.com/intridea/multi_json">
+            <summary>A gem to provide swappable JSON backends.</summary>
+          </additional_info>
+        </gem>
+        <gem url="file:///usr/local/Cellar/ruby/1.9.3-p194/lib/ruby/gems/1.9.1/gems/journey-1.0.4" name="journey" version="1.0.4" timestamp="1342594934000" parser_version="15" git="false">
+          <additional_info authors="Aaron Patterson" email="aaron@tenderlovemaking.com" homepage="http://github.com/rails/journey">
+            <summary>Journey is a router</summary>
+          </additional_info>
+        </gem>
+        <gem url="file:///usr/local/Cellar/ruby/1.9.3-p194/lib/ruby/gems/1.9.1/gems/activesupport-3.2.8" name="activesupport" version="3.2.8" timestamp="1345427763000" parser_version="15" git="false">
+          <additional_info authors="David Heinemeier Hansson" email="david@loudthinking.com" homepage="http://www.rubyonrails.org">
+            <summary>A toolkit of support libraries and Ruby core extensions extracted from the Rails framework.</summary>
+          </additional_info>
+          <dependency name="i18n" git="false" path="false" doRequire="true">
+            <bound version="0.6" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="multi_json" git="false" path="false" doRequire="true">
+            <bound version="1.0" bound="LATEST_IN_BRANCH" />
+          </dependency>
+        </gem>
+        <gem url="file:///usr/local/Cellar/ruby/1.9.3-p194/lib/ruby/gems/1.9.1/gems/erubis-2.7.0" name="erubis" version="2.7.0" timestamp="1342594936000" parser_version="15" git="false">
+          <additional_info authors="makoto kuwata" email="kwa(at)kuwata-lab.com" homepage="http://www.kuwata-lab.com/erubis/">
+            <summary>a fast and extensible eRuby implementation which supports multi-language</summary>
+          </additional_info>
+        </gem>
+        <gem url="file:///usr/local/Cellar/ruby/1.9.3-p194/lib/ruby/gems/1.9.1/gems/tzinfo-0.3.33" name="tzinfo" version="0.3.33" timestamp="1342594937000" parser_version="15" git="false">
+          <additional_info authors="Philip Ross" email="phil.ross@gmail.com" homepage="http://tzinfo.rubyforge.org/">
+            <summary>Daylight-savings aware timezone library</summary>
+          </additional_info>
+        </gem>
+        <gem url="file:///usr/local/Cellar/ruby/1.9.3-p194/lib/ruby/gems/1.9.1/gems/treetop-1.4.10" name="treetop" version="1.4.10" timestamp="1342594939000" parser_version="15" git="false">
+          <additional_info authors="Nathan Sobo" email="cliffordheath@gmail.com" homepage="http://functionalform.blogspot.com">
+            <summary>A Ruby-based text parsing and interpretation DSL</summary>
+          </additional_info>
+          <dependency name="polyglot" git="false" path="false" doRequire="true">
+            <bound version="0" bound="GREATER_OR_EQUAL" />
+          </dependency>
+          <dependency name="polyglot" git="false" path="false" doRequire="true">
+            <bound version="0.3.1" bound="GREATER_OR_EQUAL" />
+          </dependency>
+        </gem>
+        <gem url="file:///usr/local/Cellar/ruby/1.9.3-p194/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8" name="actionpack" version="3.2.8" timestamp="1345427763000" parser_version="15" git="false">
+          <additional_info authors="David Heinemeier Hansson" email="david@loudthinking.com" homepage="http://www.rubyonrails.org">
+            <summary>Web-flow and rendering framework putting the VC in MVC (part of Rails).</summary>
+          </additional_info>
+          <dependency name="activemodel" git="false" path="false" doRequire="true">
+            <bound version="3.2.8" bound="EQUAL" />
+          </dependency>
+          <dependency name="rack-cache" git="false" path="false" doRequire="true">
+            <bound version="1.2" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="erubis" git="false" path="false" doRequire="true">
+            <bound version="2.7.0" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="sprockets" git="false" path="false" doRequire="true">
+            <bound version="2.1.3" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="builder" git="false" path="false" doRequire="true">
+            <bound version="3.0.0" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="rack" git="false" path="false" doRequire="true">
+            <bound version="1.4.0" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="activesupport" git="false" path="false" doRequire="true">
+            <bound version="3.2.8" bound="EQUAL" />
+          </dependency>
+          <dependency name="journey" git="false" path="false" doRequire="true">
+            <bound version="1.0.4" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="rack-test" git="false" path="false" doRequire="true">
+            <bound version="0.6.1" bound="LATEST_IN_BRANCH" />
+          </dependency>
+        </gem>
+        <gem url="file:///usr/local/Cellar/ruby/1.9.3-p194/lib/ruby/gems/1.9.1/gems/arel-3.0.2" name="arel" version="3.0.2" timestamp="1342594936000" parser_version="15" git="false">
+          <additional_info authors="Aaron Patterson, Bryan Halmkamp, Emilio Tagua, Nick Kallen" email="aaron@tenderlovemaking.com, bryan@brynary.com, miloops@gmail.com, nick@example.org" homepage="http://github.com/rails/arel">
+            <summary>Arel is a SQL AST manager for Ruby</summary>
+          </additional_info>
+        </gem>
+        <gem url="file:///usr/local/Cellar/ruby/1.9.3-p194/lib/ruby/gems/1.9.1/gems/uglifier-1.2.7" name="uglifier" version="1.2.7" timestamp="1344254523000" parser_version="15" git="false">
+          <additional_info authors="Ville Lautanala" email="lautis@gmail.com" homepage="http://github.com/lautis/uglifier">
+            <summary>Ruby wrapper for UglifyJS JavaScript compressor</summary>
+          </additional_info>
+          <dependency name="execjs" git="false" path="false" doRequire="true">
+            <bound version="0.3.0" bound="GREATER_OR_EQUAL" />
+          </dependency>
+          <dependency name="multi_json" git="false" path="false" doRequire="true">
+            <bound version="1.3" bound="LATEST_IN_BRANCH" />
+          </dependency>
+        </gem>
+        <gem url="file:///usr/local/Cellar/ruby/1.9.3-p194/lib/ruby/gems/1.9.1/gems/uglifier-1.2.6" name="uglifier" version="1.2.6" timestamp="1342595393000" parser_version="15" git="false">
+          <additional_info authors="Ville Lautanala" email="lautis@gmail.com" homepage="http://github.com/lautis/uglifier">
+            <summary>Ruby wrapper for UglifyJS JavaScript compressor</summary>
+          </additional_info>
+          <dependency name="execjs" git="false" path="false" doRequire="true">
+            <bound version="0.3.0" bound="GREATER_OR_EQUAL" />
+          </dependency>
+          <dependency name="multi_json" git="false" path="false" doRequire="true">
+            <bound version="1.3" bound="LATEST_IN_BRANCH" />
+          </dependency>
+        </gem>
+        <gem url="file:///usr/local/Cellar/ruby/1.9.3-p194/lib/ruby/gems/1.9.1/gems/jquery-rails-2.1.1" name="jquery-rails" version="2.1.1" timestamp="1345427789000" parser_version="15" git="false">
+          <additional_info authors="Andr\u{e9} Arko" email="andre@arko.net" homepage="http://rubygems.org/gems/jquery-rails">
+            <summary>Use jQuery with Rails 3</summary>
+          </additional_info>
+          <dependency name="thor" git="false" path="false" doRequire="true">
+            <bound version="0.14" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="railties" git="false" path="false" doRequire="true">
+            <bound version="3.1.0" bound="GREATER_OR_EQUAL" />
+            <bound version="5.0" bound="LESS" />
+          </dependency>
+        </gem>
+        <gem url="file:///usr/local/Cellar/ruby/1.9.3-p194/lib/ruby/gems/1.9.1/gems/actionpack-3.2.6" name="actionpack" version="3.2.6" timestamp="1342594936000" parser_version="15" git="false">
+          <additional_info authors="David Heinemeier Hansson" email="david@loudthinking.com" homepage="http://www.rubyonrails.org">
+            <summary>Web-flow and rendering framework putting the VC in MVC (part of Rails).</summary>
+          </additional_info>
+          <dependency name="activemodel" git="false" path="false" doRequire="true">
+            <bound version="3.2.6" bound="EQUAL" />
+          </dependency>
+          <dependency name="rack-cache" git="false" path="false" doRequire="true">
+            <bound version="1.2" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="erubis" git="false" path="false" doRequire="true">
+            <bound version="2.7.0" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="journey" git="false" path="false" doRequire="true">
+            <bound version="1.0.1" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="sprockets" git="false" path="false" doRequire="true">
+            <bound version="2.1.3" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="builder" git="false" path="false" doRequire="true">
+            <bound version="3.0.0" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="rack" git="false" path="false" doRequire="true">
+            <bound version="1.4.0" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="activesupport" git="false" path="false" doRequire="true">
+            <bound version="3.2.6" bound="EQUAL" />
+          </dependency>
+          <dependency name="rack-test" git="false" path="false" doRequire="true">
+            <bound version="0.6.1" bound="LATEST_IN_BRANCH" />
+          </dependency>
+        </gem>
+        <gem url="file:///usr/local/Cellar/ruby/1.9.3-p194/lib/ruby/gems/1.9.1/gems/actionmailer-3.2.6" name="actionmailer" version="3.2.6" timestamp="1342594940000" parser_version="15" git="false">
+          <additional_info authors="David Heinemeier Hansson" email="david@loudthinking.com" homepage="http://www.rubyonrails.org">
+            <summary>Email composition, delivery, and receiving framework (part of Rails).</summary>
+          </additional_info>
+          <dependency name="actionpack" git="false" path="false" doRequire="true">
+            <bound version="3.2.6" bound="EQUAL" />
+          </dependency>
+          <dependency name="mail" git="false" path="false" doRequire="true">
+            <bound version="2.4.4" bound="LATEST_IN_BRANCH" />
+          </dependency>
+        </gem>
+        <gem url="file:///usr/local/Cellar/ruby/1.9.3-p194/lib/ruby/gems/1.9.1/gems/rmagick-2.13.1" name="rmagick" version="2.13.1" timestamp="1345435242000" parser_version="15" git="false">
+          <additional_info authors="Tim Hunter, Omer Bar-or, Benjamin Thomas" email="rmagick@rubyforge.org" homepage="http://rubyforge.org/projects/rmagick">
+            <summary>Ruby binding to ImageMagick</summary>
+          </additional_info>
+        </gem>
+        <gem url="file:///usr/local/Cellar/ruby/1.9.3-p194/lib/ruby/gems/1.9.1/gems/actionmailer-3.2.8" name="actionmailer" version="3.2.8" timestamp="1345427764000" parser_version="15" git="false">
+          <additional_info authors="David Heinemeier Hansson" email="david@loudthinking.com" homepage="http://www.rubyonrails.org">
+            <summary>Email composition, delivery, and receiving framework (part of Rails).</summary>
+          </additional_info>
+          <dependency name="actionpack" git="false" path="false" doRequire="true">
+            <bound version="3.2.8" bound="EQUAL" />
+          </dependency>
+          <dependency name="mail" git="false" path="false" doRequire="true">
+            <bound version="2.4.4" bound="LATEST_IN_BRANCH" />
+          </dependency>
+        </gem>
+        <gem url="file:///usr/local/Cellar/ruby/1.9.3-p194/lib/ruby/gems/1.9.1/gems/activerecord-3.2.6" name="activerecord" version="3.2.6" timestamp="1342594937000" parser_version="15" git="false">
+          <additional_info authors="David Heinemeier Hansson" email="david@loudthinking.com" homepage="http://www.rubyonrails.org">
+            <summary>Object-relational mapper framework (part of Rails).</summary>
+          </additional_info>
+          <dependency name="activemodel" git="false" path="false" doRequire="true">
+            <bound version="3.2.6" bound="EQUAL" />
+          </dependency>
+          <dependency name="arel" git="false" path="false" doRequire="true">
+            <bound version="3.0.2" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="tzinfo" git="false" path="false" doRequire="true">
+            <bound version="0.3.29" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="activesupport" git="false" path="false" doRequire="true">
+            <bound version="3.2.6" bound="EQUAL" />
+          </dependency>
+        </gem>
+        <gem url="file:///usr/local/Cellar/ruby/1.9.3-p194/lib/ruby/gems/1.9.1/gems/coffee-rails-3.2.2" name="coffee-rails" version="3.2.2" timestamp="1342595386000" parser_version="15" git="false">
+          <additional_info authors="Santiago Pastorino" email="santiago@wyeworks.com" homepage="">
+            <summary>Coffee Script adapter for the Rails asset pipeline.</summary>
+          </additional_info>
+          <dependency name="railties" git="false" path="false" doRequire="true">
+            <bound version="3.2.0" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="coffee-script" git="false" path="false" doRequire="true">
+            <bound version="2.2.0" bound="GREATER_OR_EQUAL" />
+          </dependency>
+        </gem>
+        <gem url="file:///usr/local/Cellar/ruby/1.9.3-p194/lib/ruby/gems/1.9.1/gems/sprockets-2.1.3" name="sprockets" version="2.1.3" timestamp="1342594935000" parser_version="15" git="false">
+          <additional_info authors="Sam Stephenson, Joshua Peek" email="sstephenson@gmail.com, josh@joshpeek.com" homepage="http://getsprockets.org/">
+            <summary>Rack-based asset packaging system</summary>
+          </additional_info>
+          <dependency name="tilt" git="false" path="false" doRequire="true">
+            <bound version="1.1" bound="LATEST_IN_BRANCH" />
+            <bound version="1.3.0" bound="NOT_EQUAL" />
+          </dependency>
+          <dependency name="hike" git="false" path="false" doRequire="true">
+            <bound version="1.2" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="rack" git="false" path="false" doRequire="true">
+            <bound version="1.0" bound="LATEST_IN_BRANCH" />
+          </dependency>
+        </gem>
+        <gem url="file:///usr/local/Cellar/ruby/1.9.3-p194/lib/ruby/gems/1.9.1/gems/sass-3.2.1" name="sass" version="3.2.1" timestamp="1345427809000" parser_version="15" git="false">
+          <additional_info authors="Nathan Weizenbaum, Chris Eppstein, Hampton Catlin" email="sass-lang@googlegroups.com" homepage="http://sass-lang.com/">
+            <summary>A powerful but elegant CSS compiler that makes CSS fun again.</summary>
+          </additional_info>
+        </gem>
+        <gem url="file:///usr/local/Cellar/ruby/1.9.3-p194/lib/ruby/gems/1.9.1/gems/railties-3.2.8" name="railties" version="3.2.8" timestamp="1345427808000" parser_version="15" git="false">
+          <additional_info authors="David Heinemeier Hansson" email="david@loudthinking.com" homepage="http://www.rubyonrails.org">
+            <summary>Tools for creating, working with, and running Rails applications.</summary>
+          </additional_info>
+          <dependency name="rake" git="false" path="false" doRequire="true">
+            <bound version="0.8.7" bound="GREATER_OR_EQUAL" />
+          </dependency>
+          <dependency name="actionpack" git="false" path="false" doRequire="true">
+            <bound version="3.2.8" bound="EQUAL" />
+          </dependency>
+          <dependency name="rack-ssl" git="false" path="false" doRequire="true">
+            <bound version="1.3.2" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="thor" git="false" path="false" doRequire="true">
+            <bound version="0.14.6" bound="GREATER_OR_EQUAL" />
+            <bound version="2.0" bound="LESS" />
+          </dependency>
+          <dependency name="activesupport" git="false" path="false" doRequire="true">
+            <bound version="3.2.8" bound="EQUAL" />
+          </dependency>
+          <dependency name="rdoc" git="false" path="false" doRequire="true">
+            <bound version="3.4" bound="LATEST_IN_BRANCH" />
+          </dependency>
+        </gem>
+        <gem url="file:///usr/local/Cellar/ruby/1.9.3-p194/lib/ruby/gems/1.9.1/gems/i18n-0.6.0" name="i18n" version="0.6.0" timestamp="1342594931000" parser_version="15" git="false">
+          <additional_info authors="Sven Fuchs, Joshua Harvey, Matt Aimonetti, Stephan Soller, Saimon Moore" email="rails-i18n@googlegroups.com" homepage="http://github.com/svenfuchs/i18n">
+            <summary>New wave Internationalization support for Ruby</summary>
+          </additional_info>
+        </gem>
+        <gem url="file:///usr/local/Cellar/ruby/1.9.3-p194/lib/ruby/gems/1.9.1/gems/activemodel-3.2.6" name="activemodel" version="3.2.6" timestamp="1342594933000" parser_version="15" git="false">
+          <additional_info authors="David Heinemeier Hansson" email="david@loudthinking.com" homepage="http://www.rubyonrails.org">
+            <summary>A toolkit for building modeling frameworks (part of Rails).</summary>
+          </additional_info>
+          <dependency name="builder" git="false" path="false" doRequire="true">
+            <bound version="3.0.0" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="activesupport" git="false" path="false" doRequire="true">
+            <bound version="3.2.6" bound="EQUAL" />
+          </dependency>
+        </gem>
+        <gem url="file:///usr/local/Cellar/ruby/1.9.3-p194/lib/ruby/gems/1.9.1/gems/coffee-script-source-1.3.3" name="coffee-script-source" version="1.3.3" timestamp="1342595377000" parser_version="15" git="false">
+          <additional_info authors="Jeremy Ashkenas" email="jashkenas@gmail.com" homepage="http://jashkenas.github.com/coffee-script/">
+            <summary>The CoffeeScript Compiler</summary>
+          </additional_info>
+        </gem>
+        <gem url="file:///usr/local/Cellar/ruby/1.9.3-p194/lib/ruby/gems/1.9.1/gems/activemodel-3.2.8" name="activemodel" version="3.2.8" timestamp="1345427763000" parser_version="15" git="false">
+          <additional_info authors="David Heinemeier Hansson" email="david@loudthinking.com" homepage="http://www.rubyonrails.org">
+            <summary>A toolkit for building modeling frameworks (part of Rails).</summary>
+          </additional_info>
+          <dependency name="builder" git="false" path="false" doRequire="true">
+            <bound version="3.0.0" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="activesupport" git="false" path="false" doRequire="true">
+            <bound version="3.2.8" bound="EQUAL" />
+          </dependency>
+        </gem>
+        <gem url="file:///usr/local/Cellar/ruby/1.9.3-p194/lib/ruby/gems/1.9.1/gems/polyglot-0.3.3" name="polyglot" version="0.3.3" timestamp="1342594939000" parser_version="15" git="false">
+          <additional_info authors="Clifford Heath" email="clifford.heath@gmail.com" homepage="http://github.com/cjheath/polyglot">
+            <summary>Augment 'require' to load non-Ruby file types</summary>
+          </additional_info>
+        </gem>
+        <gem url="file:///usr/local/Cellar/ruby/1.9.3-p194/lib/ruby/gems/1.9.1/gems/railties-3.2.6" name="railties" version="3.2.6" timestamp="1342594943000" parser_version="15" git="false">
+          <additional_info authors="David Heinemeier Hansson" email="david@loudthinking.com" homepage="http://www.rubyonrails.org">
+            <summary>Tools for creating, working with, and running Rails applications.</summary>
+          </additional_info>
+          <dependency name="rake" git="false" path="false" doRequire="true">
+            <bound version="0.8.7" bound="GREATER_OR_EQUAL" />
+          </dependency>
+          <dependency name="rack-ssl" git="false" path="false" doRequire="true">
+            <bound version="1.3.2" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="thor" git="false" path="false" doRequire="true">
+            <bound version="0.14.6" bound="GREATER_OR_EQUAL" />
+            <bound version="2.0" bound="LESS" />
+          </dependency>
+          <dependency name="actionpack" git="false" path="false" doRequire="true">
+            <bound version="3.2.6" bound="EQUAL" />
+          </dependency>
+          <dependency name="rdoc" git="false" path="false" doRequire="true">
+            <bound version="3.4" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="activesupport" git="false" path="false" doRequire="true">
+            <bound version="3.2.6" bound="EQUAL" />
+          </dependency>
+        </gem>
+        <gem url="file:///usr/local/Cellar/ruby/1.9.3-p194/lib/ruby/gems/1.9.1/gems/activerecord-3.2.8" name="activerecord" version="3.2.8" timestamp="1345427768000" parser_version="15" git="false">
+          <additional_info authors="David Heinemeier Hansson" email="david@loudthinking.com" homepage="http://www.rubyonrails.org">
+            <summary>Object-relational mapper framework (part of Rails).</summary>
+          </additional_info>
+          <dependency name="arel" git="false" path="false" doRequire="true">
+            <bound version="3.0.2" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="activemodel" git="false" path="false" doRequire="true">
+            <bound version="3.2.8" bound="EQUAL" />
+          </dependency>
+          <dependency name="tzinfo" git="false" path="false" doRequire="true">
+            <bound version="0.3.29" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="activesupport" git="false" path="false" doRequire="true">
+            <bound version="3.2.8" bound="EQUAL" />
+          </dependency>
+        </gem>
+        <gem url="file:///usr/local/Cellar/ruby/1.9.3-p194/lib/ruby/gems/1.9.1/gems/execjs-1.4.0" name="execjs" version="1.4.0" timestamp="1342595377000" parser_version="15" git="false">
+          <additional_info authors="Sam Stephenson, Josh Peek" email="sstephenson@gmail.com, josh@joshpeek.com" homepage="https://github.com/sstephenson/execjs">
+            <summary>Run JavaScript code from Ruby</summary>
+          </additional_info>
+          <dependency name="multi_json" git="false" path="false" doRequire="true">
+            <bound version="1.0" bound="LATEST_IN_BRANCH" />
+          </dependency>
+        </gem>
+        <gem url="file:///usr/local/Cellar/ruby/1.9.3-p194/lib/ruby/gems/1.9.1/gems/activeresource-3.2.6" name="activeresource" version="3.2.6" timestamp="1342594938000" parser_version="15" git="false">
+          <additional_info authors="David Heinemeier Hansson" email="david@loudthinking.com" homepage="http://www.rubyonrails.org">
+            <summary>REST modeling framework (part of Rails).</summary>
+          </additional_info>
+          <dependency name="activemodel" git="false" path="false" doRequire="true">
+            <bound version="3.2.6" bound="EQUAL" />
+          </dependency>
+          <dependency name="activesupport" git="false" path="false" doRequire="true">
+            <bound version="3.2.6" bound="EQUAL" />
+          </dependency>
+        </gem>
+        <gem url="file:///usr/local/Cellar/ruby/1.9.3-p194/lib/ruby/gems/1.9.1/gems/activeresource-3.2.8" name="activeresource" version="3.2.8" timestamp="1345427770000" parser_version="15" git="false">
+          <additional_info authors="David Heinemeier Hansson" email="david@loudthinking.com" homepage="http://www.rubyonrails.org">
+            <summary>REST modeling framework (part of Rails).</summary>
+          </additional_info>
+          <dependency name="activemodel" git="false" path="false" doRequire="true">
+            <bound version="3.2.8" bound="EQUAL" />
+          </dependency>
+          <dependency name="activesupport" git="false" path="false" doRequire="true">
+            <bound version="3.2.8" bound="EQUAL" />
+          </dependency>
+        </gem>
+        <gem url="file:///usr/local/Cellar/ruby/1.9.3-p194/lib/ruby/gems/1.9.1/gems/hike-1.2.1" name="hike" version="1.2.1" timestamp="1342594935000" parser_version="15" git="false">
+          <additional_info authors="Sam Stephenson" email="sstephenson@gmail.com" homepage="http://github.com/sstephenson/hike">
+            <summary>Find files in a set of paths</summary>
+          </additional_info>
+        </gem>
+        <gem url="file:///usr/local/Cellar/ruby/1.9.3-p194/lib/ruby/gems/1.9.1/gems/rails-3.2.8" name="rails" version="3.2.8" timestamp="1345427808000" parser_version="15" git="false">
+          <additional_info authors="David Heinemeier Hansson" email="david@loudthinking.com" homepage="http://www.rubyonrails.org">
+            <summary>Full-stack web application framework.</summary>
+          </additional_info>
+          <dependency name="actionmailer" git="false" path="false" doRequire="true">
+            <bound version="3.2.8" bound="EQUAL" />
+          </dependency>
+          <dependency name="activerecord" git="false" path="false" doRequire="true">
+            <bound version="3.2.8" bound="EQUAL" />
+          </dependency>
+          <dependency name="actionpack" git="false" path="false" doRequire="true">
+            <bound version="3.2.8" bound="EQUAL" />
+          </dependency>
+          <dependency name="railties" git="false" path="false" doRequire="true">
+            <bound version="3.2.8" bound="EQUAL" />
+          </dependency>
+          <dependency name="activesupport" git="false" path="false" doRequire="true">
+            <bound version="3.2.8" bound="EQUAL" />
+          </dependency>
+          <dependency name="bundler" git="false" path="false" doRequire="true">
+            <bound version="1.0" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="activeresource" git="false" path="false" doRequire="true">
+            <bound version="3.2.8" bound="EQUAL" />
+          </dependency>
+        </gem>
+        <gem url="file:///usr/local/Cellar/ruby/1.9.3-p194/lib/ruby/gems/1.9.1/gems/bundler-1.1.5" name="bundler" version="1.1.5" timestamp="1342596979000" parser_version="15" git="false">
+          <additional_info authors="Andr\u{c3}\u{a9} Arko, Terence Lee, Carl Lerche, Yehuda Katz" email="andre@arko.net" homepage="http://gembundler.com">
+            <summary>The best way to manage your application's dependencies</summary>
+          </additional_info>
+        </gem>
+        <gem url="file:///usr/local/Cellar/ruby/1.9.3-p194/lib/ruby/gems/1.9.1/gems/sass-rails-3.2.5" name="sass-rails" version="3.2.5" timestamp="1342595390000" parser_version="15" git="false">
+          <additional_info authors="wycats, chriseppstein" email="wycats@gmail.com, chris@eppsteins.net" homepage="">
+            <summary>Sass adapter for the Rails asset pipeline.</summary>
+          </additional_info>
+          <dependency name="railties" git="false" path="false" doRequire="true">
+            <bound version="3.2.0" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="sass" git="false" path="false" doRequire="true">
+            <bound version="3.1.10" bound="GREATER_OR_EQUAL" />
+          </dependency>
+          <dependency name="tilt" git="false" path="false" doRequire="true">
+            <bound version="1.3" bound="LATEST_IN_BRANCH" />
+          </dependency>
+        </gem>
+        <gem url="file:///usr/local/Cellar/ruby/1.9.3-p194/lib/ruby/gems/1.9.1/gems/rack-ssl-1.3.2" name="rack-ssl" version="1.3.2" timestamp="1342594941000" parser_version="15" git="false">
+          <additional_info authors="Joshua Peek" email="josh@joshpeek.com" homepage="https://github.com/josh/rack-ssl">
+            <summary>Force SSL/TLS in your app.</summary>
+          </additional_info>
+          <dependency name="rack" git="false" path="false" doRequire="true">
+            <bound version="0" bound="GREATER_OR_EQUAL" />
+          </dependency>
+        </gem>
+        <gem url="file:///usr/local/Cellar/ruby/1.9.3-p194/lib/ruby/gems/1.9.1/gems/thor-0.15.4" name="thor" version="0.15.4" timestamp="1342594942000" parser_version="15" git="false">
+          <additional_info authors="Yehuda Katz, Jos\u{e9} Valim" email="ruby-thor@googlegroups.com" homepage="http://github.com/wycats/thor">
+            <summary>A scripting framework that replaces rake, sake and rubigen</summary>
+          </additional_info>
+        </gem>
+        <gem url="file:///usr/local/Cellar/ruby/1.9.3-p194/lib/ruby/gems/1.9.1/gems/json-1.7.4" name="json" version="1.7.4" timestamp="1344254521000" parser_version="15" git="false">
+          <additional_info authors="Florian Frank" email="flori@ping.de" homepage="http://flori.github.com/json">
+            <summary>JSON Implementation for Ruby</summary>
+          </additional_info>
+        </gem>
+        <gem url="file:///usr/local/Cellar/ruby/1.9.3-p194/lib/ruby/gems/1.9.1/gems/json-1.7.5" name="json" version="1.7.5" timestamp="1345427793000" parser_version="15" git="false">
+          <additional_info authors="Florian Frank" email="flori@ping.de" homepage="http://flori.github.com/json">
+            <summary>JSON Implementation for Ruby</summary>
+          </additional_info>
+        </gem>
+        <gem url="file:///usr/local/Cellar/ruby/1.9.3-p194/lib/ruby/gems/1.9.1/gems/json-1.7.3" name="json" version="1.7.3" timestamp="1342595383000" parser_version="15" git="false">
+          <additional_info authors="Florian Frank" email="flori@ping.de" homepage="http://flori.github.com/json">
+            <summary>JSON Implementation for Ruby</summary>
+          </additional_info>
+        </gem>
+        <gem url="file:///usr/local/Cellar/ruby/1.9.3-p194/lib/ruby/gems/1.9.1/gems/rdoc-3.9.4" name="rdoc" version="3.9.4" timestamp="1342073483000" parser_version="15" git="false">
+          <additional_info authors="N/A" email="N/A" homepage="N/A">
+            <summary>This rdoc is bundled with Ruby</summary>
+          </additional_info>
+        </gem>
+        <gem url="file:///usr/local/Cellar/ruby/1.9.3-p194/lib/ruby/gems/1.9.1/gems/rails-3.2.6" name="rails" version="3.2.6" timestamp="1342594943000" parser_version="15" git="false">
+          <additional_info authors="David Heinemeier Hansson" email="david@loudthinking.com" homepage="http://www.rubyonrails.org">
+            <summary>Full-stack web application framework.</summary>
+          </additional_info>
+          <dependency name="bundler" git="false" path="false" doRequire="true">
+            <bound version="1.0" bound="LATEST_IN_BRANCH" />
+          </dependency>
+          <dependency name="actionpack" git="false" path="false" doRequire="true">
+            <bound version="3.2.6" bound="EQUAL" />
+          </dependency>
+          <dependency name="activeresource" git="false" path="false" doRequire="true">
+            <bound version="3.2.6" bound="EQUAL" />
+          </dependency>
+          <dependency name="railties" git="false" path="false" doRequire="true">
+            <bound version="3.2.6" bound="EQUAL" />
+          </dependency>
+          <dependency name="activerecord" git="false" path="false" doRequire="true">
+            <bound version="3.2.6" bound="EQUAL" />
+          </dependency>
+          <dependency name="activesupport" git="false" path="false" doRequire="true">
+            <bound version="3.2.6" bound="EQUAL" />
+          </dependency>
+          <dependency name="actionmailer" git="false" path="false" doRequire="true">
+            <bound version="3.2.6" bound="EQUAL" />
+          </dependency>
+        </gem>
+      </box>
+      <box url="file://$USER_HOME$/.gem/ruby/1.9.1/gems" />
+      <box url="file:///usr/local/Cellar/ruby/1.9.3-p194/lib/ruby/gems/1.9.1/bundler/gems" />
+      <box url="file://$USER_HOME$/.gem/ruby/1.9.1/bundler/gems" />
+    </sdk2gems>
+  </component>
+  <component name="RemoteGemsState" version="3">
+    <entry url="http://gems.github.com" />
+  </component>
+  <component name="RubyStubsGeneratedCache">
+    <generated_stubs>
+      <entry key="actionmailer, 3.2.6" value="no" />
+      <entry key="actionpack, 3.2.6" value="no" />
+      <entry key="activemodel, 3.2.6" value="no" />
+      <entry key="activerecord, 3.2.6" value="no" />
+      <entry key="activeresource, 3.2.6" value="no" />
+      <entry key="activesupport, 3.2.6" value="no" />
+      <entry key="arel, 3.0.2" value="no" />
+      <entry key="builder, 3.0.0" value="no" />
+      <entry key="bundler, 1.1.4" value="no" />
+      <entry key="bundler, 1.1.5" value="no" />
+      <entry key="coffee-rails, 3.2.2" value="no" />
+      <entry key="coffee-script, 2.2.0" value="no" />
+      <entry key="coffee-script-source, 1.3.3" value="no" />
+      <entry key="erubis, 2.7.0" value="no" />
+      <entry key="execjs, 1.4.0" value="no" />
+      <entry key="hike, 1.2.1" value="no" />
+      <entry key="i18n, 0.6.0" value="no" />
+      <entry key="journey, 1.0.4" value="no" />
+      <entry key="jquery-rails, 2.0.2" value="no" />
+      <entry key="json, 1.7.3" value="1" />
+      <entry key="mail, 2.4.4" value="no" />
+      <entry key="mime-types, 1.19" value="no" />
+      <entry key="multi_json, 1.3.6" value="no" />
+      <entry key="polyglot, 0.3.3" value="no" />
+      <entry key="rack, 1.4.1" value="no" />
+      <entry key="rack-cache, 1.2" value="no" />
+      <entry key="rack-ssl, 1.3.2" value="no" />
+      <entry key="rack-test, 0.6.1" value="no" />
+      <entry key="rails, 3.2.6" value="no" />
+      <entry key="railties, 3.2.6" value="no" />
+      <entry key="rake, 0.9.2.2" value="no" />
+      <entry key="rdoc, 3.12" value="no" />
+      <entry key="sass, 3.1.20" value="no" />
+      <entry key="sass-rails, 3.2.5" value="no" />
+      <entry key="sprockets, 2.1.3" value="no" />
+      <entry key="sqlite3, 1.3.6" value="1" />
+      <entry key="thor, 0.15.4" value="no" />
+      <entry key="tilt, 1.3.3" value="no" />
+      <entry key="treetop, 1.4.10" value="no" />
+      <entry key="tzinfo, 0.3.33" value="no" />
+      <entry key="uglifier, 1.2.6" value="no" />
+      <entry key="uglifier, 1.2.7" value="no" />
+    </generated_stubs>
+  </component>
+</application>
+
