@@ -5,11 +5,13 @@
 /fileTemplates
 /filetypes
 /inspection
-/options
 /quicklists
 /rubystubs
 /tasks
 /tools
+
+/options/*
+!/options/ui.lnf.xml
 
 port
 rubymine40.key
