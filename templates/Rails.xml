@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <templateSet group="Rails">
-  <template name="end" value="&lt;% end %&gt;" description="end" toReformat="false" toShortenFQNames="true">
+  <template name="end" value="&lt;% end %&gt;" description="&lt;% end %&gt;" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="HTML_TEXT" value="false" />
       <option name="HTML" value="false" />
       <option name="XSL_TEXT" value="false" />
       <option name="XML" value="false" />
       <option name="RUBY" value="false" />
-      <option name="RHTML" value="false" />
+      <option name="RHTML" value="true" />
       <option name="CSS_PROPERTY_VALUE" value="false" />
       <option name="CSS_DECLARATION_BLOCK" value="false" />
       <option name="CSS_RULESET_LIST" value="false" />
