@@ -1,5 +1,25 @@
 .DS_Store
 
+/codestyles
+/colors
+/componentVersions
+/eval
+/fileTemplates
+/filetypes
+/inspection
+/keymaps
+/options
+/quicklists
+/rubystubs
+/tasks
+/templates
+/tools
+
+port
+rubymine40.key
+rubymine30.key
+
+
 # Ignore other unneeded files
 *~
 \#*
