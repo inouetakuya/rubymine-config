@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <templateSet group="Ruby">
-  <template name="TODO:" value="# TODO:" description="# TODO:" toReformat="true" toShortenFQNames="true">
+  <template name="todo" value="# TODO:" description="# TODO:" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="HTML_TEXT" value="false" />
       <option name="HTML" value="false" />
