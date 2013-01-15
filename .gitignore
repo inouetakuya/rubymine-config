@@ -1,0 +1,25 @@
+.DS_Store
+
+componentVersions/
+eval/
+fileTemplates/
+filetypes/
+inspection/
+quicklists/
+rubystubs/
+tasks/
+tools/
+jdbc-drivers/
+
+options/*
+!options/ui.lnf.xml
+
+port
+rubymine40.key
+rubymine30.key
+
+
+# Ignore other unneeded files
+*~
+\#*
+
