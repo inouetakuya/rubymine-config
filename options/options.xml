@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application>
+  <component name="LafManager">
+    <laf class-name="com.apple.laf.AquaLookAndFeel" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Non-Project Files" value="Yellow" />
+    <property name="RubyMine.full.reindex.required" value="1" />
+    <property name="installation.uid" value="ec704db2-1b70-4098-bd0b-6dda7360b224" />
+    <property name="Ruby.initialConfigurationShown" value="true" />
+    <property name="Tests" value="Green" />
+    <property name="file.colors.enable.tests" value="Green" />
+    <property name="file.colors.enable.non.project" value="Yellow" />
+  </component>
+</application>
+
