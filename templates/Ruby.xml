@@ -2,8 +2,8 @@
 <templateSet group="Ruby">
   <template name="todo" value="# TODO:" description="# TODO:" toReformat="true" toShortenFQNames="true">
     <context>
-      <option name="RHTML" value="true" />
       <option name="RUBY" value="true" />
+      <option name="RHTML" value="true" />
     </context>
   </template>
   <template name="coding_utf-8" value="# -*- coding: utf-8 -*-" description="# -*- coding: utf-8 -*-" toReformat="true" toShortenFQNames="true">
