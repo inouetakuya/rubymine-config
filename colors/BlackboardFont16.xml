@@ -379,6 +379,17 @@
     <option name="DEFAULT_DOT">
       <value />
     </option>
+    <option name="DEFAULT_KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="fbde2d" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="DEFAULT_NUMBER">
+      <value>
+        <option name="FOREGROUND" value="d8fa3c" />
+      </value>
+    </option>
     <option name="DEFAULT_OPERATION_SIGN">
       <value />
     </option>
@@ -387,6 +398,12 @@
     </option>
     <option name="DEFAULT_SEMICOLON">
       <value />
+    </option>
+    <option name="DEFAULT_VALID_STRING_ESCAPE">
+      <value>
+        <option name="FOREGROUND" value="d8fa3c" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
     </option>
     <option name="DEPRECATED_ATTRIBUTES">
       <value>
