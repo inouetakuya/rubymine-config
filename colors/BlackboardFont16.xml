@@ -379,6 +379,17 @@
     <option name="DEFAULT_DOT">
       <value />
     </option>
+    <option name="DEFAULT_KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="fbde2d" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="DEFAULT_NUMBER">
+      <value>
+        <option name="FOREGROUND" value="d8fa3c" />
+      </value>
+    </option>
     <option name="DEFAULT_OPERATION_SIGN">
       <value />
     </option>
@@ -387,6 +398,12 @@
     </option>
     <option name="DEFAULT_SEMICOLON">
       <value />
+    </option>
+    <option name="DEFAULT_VALID_STRING_ESCAPE">
+      <value>
+        <option name="FOREGROUND" value="d8fa3c" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
     </option>
     <option name="DEPRECATED_ATTRIBUTES">
       <value>
@@ -864,6 +881,40 @@
     <option name="NOT_USED_ELEMENT_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="80807f" />
+      </value>
+    </option>
+    <option name="PUPPET_ESCAPE_SEQUENCE">
+      <value>
+        <option name="FOREGROUND" value="d8fa3c" />
+        <option name="EFFECT_TYPE" value="-1" />
+      </value>
+    </option>
+    <option name="PUPPET_KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="fbde2d" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="PUPPET_NUMBER">
+      <value>
+        <option name="FOREGROUND" value="d8fa3c" />
+      </value>
+    </option>
+    <option name="PUPPET_OPERATION_SIGN">
+      <value>
+        <option name="FOREGROUND" value="fbde2d" />
+      </value>
+    </option>
+    <option name="PUPPET_SQ_STRING">
+      <value>
+        <option name="FOREGROUND" value="61ce3c" />
+        <option name="EFFECT_TYPE" value="-1" />
+      </value>
+    </option>
+    <option name="PUPPET_VARIABLE">
+      <value>
+        <option name="FOREGROUND" value="64a2a2" />
+        <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
     <option name="PY.BRACES">
