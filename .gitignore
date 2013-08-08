@@ -9,6 +9,7 @@
 /rubystubs
 /tasks
 /tools
+/jdbc-drivers
 
 /options/*
 !/options/ui.lnf.xml
