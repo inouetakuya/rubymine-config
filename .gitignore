@@ -13,6 +13,7 @@
 
 options/*
 !options/ui.lnf.xml
+!options/options.xml
 
 port
 rubymine50.key
