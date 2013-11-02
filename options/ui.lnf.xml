@@ -3,6 +3,7 @@
   <component name="UISettings">
     <option name="FONT_FACE" value="AlBayan" />
     <option name="RECENT_FILES_LIMIT" value="99" />
+    <option name="EDITOR_TAB_LIMIT" value="99" />
     <option name="SHOW_MEMORY_INDICATOR" value="false" />
   </component>
 </application>
