@@ -34,6 +34,7 @@
     <keyboard-shortcut first-keystroke="control DIVIDE" />
     <keyboard-shortcut first-keystroke="meta SEMICOLON" />
   </action>
+  <action id="Console.History.BrowseTW" />
   <action id="CopyPaths">
     <keyboard-shortcut first-keystroke="shift control C" />
     <keyboard-shortcut first-keystroke="control meta U" />
@@ -114,6 +115,9 @@
     <mouse-shortcut keystroke="control button1" />
     <keyboard-shortcut first-keystroke="meta PERIOD" />
   </action>
+  <action id="GotoFile">
+    <keyboard-shortcut first-keystroke="control SEMICOLON" />
+  </action>
   <action id="HideActiveWindow">
     <keyboard-shortcut first-keystroke="shift ESCAPE" />
     <keyboard-shortcut first-keystroke="control X" second-keystroke="0" />
@@ -134,9 +138,6 @@
   <action id="PasteMultiple">
     <keyboard-shortcut first-keystroke="alt Y" />
     <keyboard-shortcut first-keystroke="meta Y" />
-  </action>
-  <action id="RecentFiles">
-    <keyboard-shortcut first-keystroke="control SEMICOLON" />
   </action>
   <action id="ReformatCode">
     <keyboard-shortcut first-keystroke="control meta BACK_SLASH" />
@@ -185,5 +186,6 @@
   <action id="UnsplitAll">
     <keyboard-shortcut first-keystroke="control X" second-keystroke="1" />
   </action>
+  <action id="UsageView.ShowRecentFindUsages" />
 </keymap>
 
