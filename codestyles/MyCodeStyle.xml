@@ -59,7 +59,6 @@
     </indentOptions>
   </codeStyleSettings>
   <codeStyleSettings language="ruby">
-    <option name="INDENT_WHEN_CASES" value="false" />
     <option name="ALIGN_GROUP_FIELD_DECLARATIONS" value="true" />
     <option name="SPACE_WITHIN_BRACES" value="true" />
   </codeStyleSettings>
