@@ -116,7 +116,11 @@
     <keyboard-shortcut first-keystroke="meta PERIOD" />
   </action>
   <action id="GotoFile">
-    <keyboard-shortcut first-keystroke="control SEMICOLON" />
+    <keyboard-shortcut first-keystroke="control X" second-keystroke="RIGHT" />
+  </action>
+  <action id="GotoLine">
+    <keyboard-shortcut first-keystroke="alt G" />
+    <keyboard-shortcut first-keystroke="control L" />
   </action>
   <action id="HideActiveWindow">
     <keyboard-shortcut first-keystroke="shift ESCAPE" />
@@ -153,6 +157,9 @@
   <action id="SavaAs">
     <keyboard-shortcut first-keystroke="shift control S" />
     <keyboard-shortcut first-keystroke="control X" second-keystroke="control W" />
+  </action>
+  <action id="SearchEverywhere">
+    <keyboard-shortcut first-keystroke="control SEMICOLON" />
   </action>
   <action id="ShowBookmarks">
     <keyboard-shortcut first-keystroke="shift F11" />
