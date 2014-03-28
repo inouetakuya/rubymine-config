@@ -16,10 +16,10 @@ options/*
 !options/editor.codeinsight.xml
 
 port
+rubymine60.key
 rubymine50.key
 rubymine40.key
 rubymine30.key
-
 
 # Ignore other unneeded files
 *~
