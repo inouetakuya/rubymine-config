@@ -1,27 +1,13 @@
-.DS_Store
+/*
 
-/componentVersions/
-/eval/
-/fileTemplates/
-/filetypes/
-/inspection/
-/quicklists/
-/rubystubs/
-/tasks/
-/tools/
-/jdbc-drivers/
+!/.gitignore
+!/README.md
 
-options/*
-!options/ui.lnf.xml
-!options/editor.codeinsight.xml
+!/codestyles/
+!/colors/
+!/keymaps/
+!/templages/
 
-port
-rubymine60.key
-rubymine50.key
-rubymine40.key
-rubymine30.key
-
-# Ignore other unneeded files
-*~
-\#*
+!/options/editor.codeinsight.xml
+!/options/ui.lnf.xml
 
