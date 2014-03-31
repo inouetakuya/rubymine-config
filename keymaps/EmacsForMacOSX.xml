@@ -134,6 +134,10 @@
     <keyboard-shortcut first-keystroke="shift ESCAPE" />
     <keyboard-shortcut first-keystroke="control X" second-keystroke="0" />
   </action>
+  <action id="JumpToLastWindow">
+    <keyboard-shortcut first-keystroke="F12" />
+    <keyboard-shortcut first-keystroke="control C" second-keystroke="O" />
+  </action>
   <action id="LocalHistory.ShowHistory">
     <keyboard-shortcut first-keystroke="control X" second-keystroke="V" />
   </action>
