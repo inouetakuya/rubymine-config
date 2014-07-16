@@ -39,6 +39,7 @@
     <keyboard-shortcut first-keystroke="meta SEMICOLON" />
   </action>
   <action id="Console.History.BrowseTW" />
+  <action id="Console.TableResult.Reload" />
   <action id="CopyPaths">
     <keyboard-shortcut first-keystroke="shift control C" />
     <keyboard-shortcut first-keystroke="control meta U" />
@@ -112,6 +113,10 @@
     <keyboard-shortcut first-keystroke="alt S" />
     <keyboard-shortcut first-keystroke="control S" />
   </action>
+  <action id="FindPrevious">
+    <keyboard-shortcut first-keystroke="shift F3" />
+    <keyboard-shortcut first-keystroke="alt R" />
+  </action>
   <action id="Forward">
     <keyboard-shortcut first-keystroke="control alt RIGHT" />
     <keyboard-shortcut first-keystroke="control C" second-keystroke="F" />
@@ -157,6 +162,10 @@
   </action>
   <action id="ReformatCode">
     <keyboard-shortcut first-keystroke="control meta BACK_SLASH" />
+  </action>
+  <action id="RenameElement">
+    <keyboard-shortcut first-keystroke="shift F6" />
+    <keyboard-shortcut first-keystroke="control R" />
   </action>
   <action id="Replace">
     <keyboard-shortcut first-keystroke="shift alt 5" />
@@ -206,5 +215,6 @@
     <keyboard-shortcut first-keystroke="control X" second-keystroke="1" />
   </action>
   <action id="UsageView.ShowRecentFindUsages" />
+  <action id="org.jetbrains.plugins.ruby.rails.console.ReloadSources" />
 </keymap>
 
