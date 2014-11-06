@@ -13,6 +13,7 @@
     </value>
   </option>
   <option name="HTML_ATTRIBUTE_WRAP" value="0" />
+  <option name="HTML_ELEMENTS_TO_INSERT_NEW_LINE_BEFORE" value="body,div,form,h1,h2,h3" />
   <CoffeeScriptCodeStyleSettings>
     <option name="SPACE_WITHIN_OBJECT_BRACES" value="true" />
   </CoffeeScriptCodeStyleSettings>
